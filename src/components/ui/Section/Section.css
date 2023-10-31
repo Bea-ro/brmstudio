@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+    padding: 40px;
+}
+
+article section:nth-child(odd) {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-section {
+display: flex;
+flex-direction: column;
+padding-top: 80px;
+gap: 30px
+}
