@@ -1,0 +1,1 @@
+export const phoneFormat = (phone: string): string => phone.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3')

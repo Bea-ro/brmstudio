@@ -1,10 +1,11 @@
 import './Button.css'
 
-export const Button = () => 
-    `
-  <button type="button" class="button">
-  &#8743;
-  </button>
-    `
+export const Button = (text: string, className: string): string =>
+   `
+    <button type="button" class="${className}">
+    ${text}
+    </button>
+  `;
+
 
 

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 
 :root {
-  --color-red: #ff264a
+  --color-red: #ff264a;
+  --color-black: #000;
+  --color-white: #fff;
   }
   
   * {
@@ -40,13 +42,6 @@ h1 {
   z-index: 1;
 }
 
-h2 {
-  text-transform: uppercase;
-  font-size: 65px;
-  font-weight: 700;
-  line-height: 1
-}
-
 h3 {
   text-transform: uppercase;
   font-size: 16px;
@@ -73,12 +68,6 @@ aside {
   top: 0;
 }
 
-.personal-img {
-  width: 62vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
 aside::before {
   content: '';
   position: absolute;
@@ -89,29 +78,6 @@ aside::before {
   background-color: rgba(0, 0, 0, 0.35);
 }
 
-.linkedin-icon {
-  width: 15px;
-  height: 15px;
-}
-
-.linkedin-link {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 40px
-}
-
-.hola {
-font-size: 25px;
-font-weight: 700;
-}
-
-.que-hago, .personal-links {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--color-red);
-  letter-spacing: 0.15em;
-  }
-
 p {
   font-size: 16px;
   font-weight: 500;
@@ -119,50 +85,9 @@ p {
   line-height: 2;
 }
 
-.underline {
-  background-color: var(--color-red);
-  width: 90px;
-  height: 9px;
-  margin-top: 20px
+.personal-img {
+  width: 62vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
-.project-img {
-width: 126px;
-height: 62px;  
-}
-
-.projects-list {
-  display: grid;
-  grid-template: 1fr 1fr 1fr/1fr 1fr;
-  margin-top: 50px;
-  gap: 15px;
-  width: fit-content;
-}
-
-.contact-info {
-display: flex;
-flex-direction: column;
-gap: 40px;
-height: 70vh;
-justify-content: space-evenly;
-}
-
-.personal-links {
-  display: flex;
-  gap: 30px;
-  text-transform: uppercase;
-}
-
-.personal-link:hover {
- transform: scale(1.05);
-}
-
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.contact-details > a {
-  color: #000
-}

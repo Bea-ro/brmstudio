@@ -1,0 +1,1 @@
+export const titlesTexts: string[] = ["", "yo", "algunos de mis trabajos", "contacto"];

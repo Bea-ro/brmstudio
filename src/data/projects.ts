@@ -1,4 +1,6 @@
-export const PROJECTS = [
+import { Project } from '../types/project';
+
+export const PROJECTS: Project[] = [
     {
       image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/art-app-project_qe6ael.png',
       name: 'Your Art API',

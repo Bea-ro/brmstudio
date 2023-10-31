@@ -4,8 +4,8 @@ section {
 }
 
 article section:nth-child(odd) {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-black);
+    color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,3 +17,74 @@ flex-direction: column;
 padding-top: 80px;
 gap: 30px
 }
+
+.linkedin-icon {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .linkedin-link {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px
+  }
+  
+  .hola {
+  font-size: 25px;
+  font-weight: 700;
+  }
+  
+  .que-hago, .personal-links {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-red);
+    letter-spacing: 0.15em;
+    }
+  
+  .underline {
+    background-color: var(--color-red);
+    width: 90px;
+    height: 9px;
+    margin-top: 20px
+  }
+  
+  .project-img {
+  width: 126px;
+  height: 62px;  
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr;
+    margin-top: 50px;
+    gap: 15px;
+    width: fit-content;
+  }
+  
+  .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 70vh;
+  justify-content: space-evenly;
+  }
+  
+  .personal-links {
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+  }
+  
+  .personal-link:hover {
+   transform: scale(1.05);
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .contact-details > a {
+    color: var(--color-black)
+  }
