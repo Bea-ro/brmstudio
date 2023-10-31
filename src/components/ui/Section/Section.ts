@@ -36,8 +36,8 @@ export const projectsSection = (): string =>
 ${PROJECTS.map((project: Project) =>
 `
 <li>
-<a href=${project.projectURL}>
-<img class="project-img" src=${project.image} alt=${project.name} target="blank" rel="noopener noreferrer"/>
+<a href=${project.projectURL} target="blank" rel="noopener noreferrer">
+<img class="project-img" src=${project.image} alt=${project.name}/>
 </a>
 </li>
 `
