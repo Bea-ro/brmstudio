@@ -88,3 +88,15 @@ gap: 30px
   .contact-details > a {
     color: var(--color-black)
   }
+
+  @media screen and (max-width: 690px) {
+    aside {
+      display: none
+    }
+    .second-section {
+      padding-top: 10px
+    }
+    .hola {
+      font-size: 18px;
+      }
+  }

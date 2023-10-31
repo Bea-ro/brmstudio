@@ -91,3 +91,12 @@ p {
   object-fit: cover;
 }
 
+@media screen and (max-width: 690px) {
+  article {
+    width: 100vw;
+  }
+
+h1 {
+  font-size: 65px;
+}
+}
